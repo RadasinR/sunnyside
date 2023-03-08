@@ -66,7 +66,7 @@ img {
 
 /* GENERAL STYLES */
 html {
-   background-color: antiquewhite;
+   background-color: rgb(255, 254, 245);
 }
 
 
@@ -210,6 +210,10 @@ footer {
    font: inherit;
    color: var(--DARK-GRAYISH-BLUE);
    text-decoration: none;
+}
+.nav-bar__menuItem:hover {
+      cursor: pointer;
+      filter: drop-shadow(0 0 0.75px green);
 }
 
 .contact-a {
@@ -413,12 +417,12 @@ footer {
 @media screen and (min-width: 500px) {
    body {
       width: clamp(280px, 90%, 1600px);
-      box-shadow: 0px 0px 10px #333;
+      box-shadow: 0px 0px 1rem #333;
    }
 }
 
 @media screen and (min-width:1000px) {
-
+   /* header */
    .main-header {
       display: flex;
       text-align: center;
@@ -428,6 +432,7 @@ footer {
       padding-top: 1rem;
       gap: 8rem;
    }
+
 
    .nav-bar__list {
       display: flex;
@@ -454,6 +459,14 @@ footer {
    .menu__btn {
       display: none;
    }
+  
+   .contact-a:hover {
+      transition-property: all;
+      transition-duration: 0.5s;
+      background-color: rgba(255, 255, 255, 0.355);
+      color: var(--WHITE);
+   }
+   /* end header */
 
    /* Box */
    .about {
@@ -512,7 +525,7 @@ footer {
    .skill---photography {
       background-image: url("/images/desktop/image-photography.jpg");
    }
-
+   /* end box */
    /* testimonials */
    .testimonials {
       display: grid;
