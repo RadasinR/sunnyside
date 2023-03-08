@@ -230,6 +230,7 @@ footer {
 .main-header__title {
    font-size: clamp(4.5rem, 20vw, 10rem);
    color: var(--WHITE);
+   text-transform: uppercase;
 }
 
 
