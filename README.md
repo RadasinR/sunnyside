@@ -27,7 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![firefox](./screenshotDesktop.png)
-![firefox](./screenshotMobile.png)
 
 ### Links
 
