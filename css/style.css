@@ -268,6 +268,7 @@ footer {
    letter-spacing: 0.1rem;
    width: fit-content;
    margin: 0 auto;
+   z-index: 1;
 
 }
 
@@ -279,6 +280,7 @@ footer {
    transition-duration: 0.5s;
    width: 110%;
    height: 1rem;
+   background-color: red;
    left: -5%;
    border-radius: 2rem;
    z-index: -1;
@@ -404,11 +406,13 @@ footer {
 .skill---graphicDesign {
    background-image: url("/images/mobile/image-graphic-design.jpg");
    background-size: 100%;
+   background-repeat: no-repeat;
 }
 
 .skill---photography {
    background-image: url("/images/mobile/image-photography.jpg");
    background-size: 100%;
+   background-repeat: no-repeat;
 }
 
 /* END MODIFIERS */
@@ -473,6 +477,7 @@ footer {
    .about {
       display: grid;
       grid-template-columns: 1fr 1fr;
+     
    }
    .box picture {
       width: 100%;
